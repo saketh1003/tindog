@@ -1,0 +1,137 @@
+
+#title{
+   background-color: #ef8172 ;
+}
+h1{
+ font-family: "Montserrat-Black";
+ font-weight: 700;
+ font-size: 5rem;
+ line-height: 1.5;
+ color: aliceblue;
+}
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+.img{
+    -webkit-transform: rotate(25deg);
+    -moz-transform: rotate(25deg);
+    -ms-transform: rotate(25deg);
+    -o-transform: rotate(25deg);
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    padding: 0 0;
+    padding-bottom: 4.5rem;
+}
+.navbar-brand{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.25rem;
+    line-height: 1.5;
+}
+.nav-item{
+    padding: 0 20px;
+}
+.nav-link{
+    font-size: 1.7rem;
+}
+.db{
+    margin: 6% 3% 6% 0;
+}
+#features{
+    padding: 7% 15%;
+    background-color:white ;
+    position: relative;
+    /* z-index: 1; */
+}
+.featurebox{
+    text-align: center;
+    padding: 0;
+}
+h3{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 3% 5% 3%;
+}
+p{
+    color: grey;
+}
+.icon{
+    color: #ef8172;
+    margin-bottom: 1.2rem;
+}
+.icon:hover{
+    color: maroon;
+}
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+h2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3rem;
+}
+.testimg{
+     width: 10%;
+     border-radius: 100%;
+     margin: 20px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding:3%;
+}
+.presslogo{
+    width: 15%;
+    margin: 30px 30px 50px;
+}
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.pricingcol{
+    padding: 1% 2%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+@media(max-width:1028px)
+{
+    .img{
+        position: static;
+        transform: rotate(0);
+    }
+    #title{
+        text-align: center;
+    }
+}
+.bottom{
+    text-align: center;
+    line-height: 1.5;
+    background-color: #ef8172;
+    color: #fff;
+}
+.foot{
+    background-color: rgba(0, 0, 0, 0.14);
+    text-align: center;
+    font-size: x-large;
+}
+.bot{
+    margin: 0 1% 2% 0;
+}
+.both3{
+    font-family :Verdana, Geneva, Tahoma, sans-serif;
+    font-size:2.5rem;
+    font-weight: 700;
+}
+.fabot{
+   margin: 20px 10px;
+}
+.links{
+    color: rgb(60, 66, 75);
+}
